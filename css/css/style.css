@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 88px;
+    /* border: 2px solid red; */
+    background-color: black;
+}
+nav ul li{
+    list-style: none;
+}
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+}

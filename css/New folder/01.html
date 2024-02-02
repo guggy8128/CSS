@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/html5-logo.png">
+    <title>This is a html file</title>
+    
+</head>
+<body>
+    <!-- <style contenteditable="" white-space: pie; style="display: block;"> -->
+    <style>
+       /* html{ 
+            background: linear-gradient(45deg,pink,blue); 
+            color: white; 
+            font-size: 20px ; 
+            width:100%;
+            height:100vh;
+        }  
+       form{ 
+            display: flex; 
+            align-items:center;
+            justify-content: center;
+            width:300px; 
+            height:300px; 
+            border:1px solid black;         
+        } 
+       input{ 
+            display: flex;
+            background-color: linear-gradient(45deg,pink,blue); 
+            border: none; display: flex; 
+            align-items: center; 
+            justify-content: center;         
+        } 
+        label{ } */
+        form{
+            width: 300px;
+            height: 500px;
+            background: linear-gradient(45deg,pink,red);
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            padding: auto;
+            margin: auto;
+        }
+        label{
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            margin-bottom: 10px;
+        }
+        input{
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            margin-bottom: 20px;
+        }
+    </style>
+    
+
+  
+    <form method="POST" action="register.php">
+        <label for="username">name:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="phone number">Phone No.</label><br>
+        <input type="number" name="number" id=""><br>
+        <label for="address">address</label><br>
+        <textarea name="address" id="" cols="20" rows="3"></textarea><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <!-- <label for="gender">gender</label><br>
+        <select name="gender" id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select><br> -->
+        <label for="gender">gender</label>
+        <input type="radio" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="female" id="">
+        <label for="female">female</label>
+        <input type="radio" value="other">
+        <label for="other">other</label><br>
+        <input type="submit" value="Register">
+      </form>
+       
+      
+</body>
+</html>

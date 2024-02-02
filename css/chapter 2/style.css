@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    /* bc is same as background-color */ 
+    /* also bg is same as background-color */
+    background-color: red;
+    color: white;
+    /* m10px+p10px is the same as margin: 10px; padding: 10px; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.green{
+    background-color: green;
+    color: aqua;
+    /* m0+p0 is the same as margin: 0px; padding: 0px; */
+    margin: 10px;
+    padding: 10px;
+}

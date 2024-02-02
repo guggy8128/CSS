@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            background-color:red;
+        }
+        header {
+            background-color: black;
+            color: white;
+            height: 70px;
+            padding: 10px 0px;
+        }
+
+        li {
+            /* display: inline; */
+            list-style: square inside url('star.png');
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid rebeccapurple;
+        }
+
+        .container {
+            width: 50vw;
+            height: 50vh;
+            background-color: aqua;
+            margin: auto;
+            padding: 0 34px;
+            position: relative;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+            /* position: relative; */
+            position: absolute;
+        }
+
+        .box2 {
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minima consectetur ducimus quas ad dolor
+            distinctio. Sint corporis commodi consectetur ipsum itaque atque dolorem, error rerum corrupti nam,
+            blanditiis nulla unde eaque dolore. Eos!
+        </p>
+        <div class="box">
+            iam
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi ea, alias optio culpa sint
+            laudantium, ab animi, tenetur accusamus repellendus? Facere tempora magnam quibusdam, eius voluptas a
+            explicabo et eos aliquam, fugiat delectus!
+        </div>
+    </div>
+    <ul>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+    </ul>
+</body>
+
+</html>
